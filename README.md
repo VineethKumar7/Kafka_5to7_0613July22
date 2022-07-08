@@ -4,17 +4,17 @@ Kafka
     Agenda
     -----------------
 
-        Main 1: Apache Kafka Baics                                          DAY 1
+        Main 1: Apache Kafka Baiscs                                         
                     What is Kafka? 
                     Kafka Features
                     Kafka Concepts
-                    Kafka Architecture                                      DAY 2
+                    Kafka Architecture                                      
                     Kafka Components 
                     Kafka Installation
                     Kafka Cluster 
                     Types of Kafka Clusters
                     Configuring Single Node Single Broker Cluster  
-        Main 2: Kafka Producer                                              DAY 3 & 4
+        Main 2: Kafka Producer                                             
                     Constructing a Kafka Producer 
                     Sending a Message to Kafka 
                     Producing Keyed and Non-Keyed Messages  
@@ -22,7 +22,7 @@ Kafka
                     Configuring Producers 
                     Serializers 
                     Partitions 
-        Main 3: Kafka Consumer                                              DAY 4 & 5
+        Main 3: Kafka Consumer                                             
                     Consumers and Consumer Groups 
                     Standalone Consumer 
                     Consumer Groups and Partition Rebalance 
@@ -34,7 +34,7 @@ Kafka
                     Rebalance Listeners 
                     Consuming Records with Specific Offsets 
                     Deserializers 
-        Main 4: Kafka Internals                                             DAY 6
+        Main 4: Kafka Internals                                           
                     Cluster Membership 
                     The Controller 
                     Replication   
@@ -45,13 +45,12 @@ Kafka
                     Using Producers in a Reliable System 
                     Using Consumers in a Reliable System 
         
-        Main 5: Kafka Stream Processing                                     DAY 7
+        Main 5: Kafka Stream Processing                                    
                     Stream Processing  
                     Stream-Processing Concepts  
                     Stream-Processing Design Patterns
                     Kafka Streams by Example 
         
-
     Lab SetUp
     -----------------------
         STS/Eclipse IDE
@@ -63,7 +62,7 @@ Kafka
 
         + Distrubuted Event Progression or Message Broadcasting System.
         + It means that Kafka can facilitate two completely isolated non-similar
-            application to communicate withe one another.
+            application to communicate with one another.
 
         Apps need to talk to one another
             In context of microservices
@@ -240,7 +239,6 @@ Kafka
                 is a serial number maintained by the zookeeper for 
                 messages and consuemrs, to remeber, what is the 
                 last message consumed by a consumer in  a consumer group.
-
 
     Kafka API
     =================================================================================
